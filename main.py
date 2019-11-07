@@ -21,7 +21,7 @@ def get_sense_data(sense):
     compass_raw = sense.get_compass_raw()
     accelerometer_raw = sense.get_accelerometer_raw()
     
-    data = ({
+    data = {
       "temperature": float("{0:.2f}".format(sense.get_temperature())),
       "humidity": float("{0:.2f}".format(sense.get_humidity())),
       "pressure": float("{0:.2f}".format(sense.get_pressure())),
@@ -34,7 +34,7 @@ def get_sense_data(sense):
       "accelerometerX": float("{0:.2f}".format(accelerometer_raw["x"])),
       "accelerometerY": float("{0:.2f}".format(accelerometer_raw["y"])),
       "accelerometerZ": float("{0:.2f}".format(accelerometer_raw["z"]))
-    })
+    }
     
     return data
 
