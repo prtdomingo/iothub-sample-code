@@ -1,0 +1,15 @@
+azure-iot-device==2.0.0rc12
+certifi==2019.9.11
+chardet==3.0.4
+idna==2.8
+janus==0.4.0
+numpy==1.17.3
+paho-mqtt==1.5.0
+Pillow==6.2.1
+python-dotenv==0.10.3
+requests==2.22.0
+requests-unixsocket==0.2.0
+sense-hat==2.2.0
+six==1.13.0
+transitions==0.7.1
+urllib3==1.25.6
